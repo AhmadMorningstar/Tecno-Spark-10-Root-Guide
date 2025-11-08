@@ -70,9 +70,9 @@ Gather all the necessary tools and the device-specific files.
 
 3.  **Confirm on Device (CRITICAL):**
     * Your phone screen will now display a final warning.
-    * Use the **Volume buttons** to navigate.
-    * Select the option to **"Unlock the Bootloader"** (or **"YES"**) and press the **Power button** to confirm.
-    * *(Note: If you wish to not continue with this, **now is your last chance**. press **volume down** to go back, and press **volume up** to proceed with the unlocking)*
+    * Use the **Volume buttons**.
+    * **Volume UP** to **"Unlock the Bootloader"**.
+    * *(Note: If you wish to not continue with this, **now is your last chance**. press **Volume Down** to cancel and to not unlock the bootloader.
 
 4.  **Wait for Wipe:** The device will perform a full factory reset and reboot.
     * **Crucial Setup Step:** Set up the phone again, but **skip all accounts and DO NOT set any screen lock** (PIN, pattern, or fingerprint, etc.). This prevents potential encryption issues later.
