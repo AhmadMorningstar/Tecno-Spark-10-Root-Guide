@@ -18,6 +18,7 @@ This is a step-by-step guide to achieve **Systemless Root** access on your Tecno
 Before connecting your phone to the PC, you need to enable the hidden developer settings.
 
 ### 1.1 Enable Developer Options
+[View GIF](https://github.com/AhmadMorningstar/Tecno-Spark-10-Root-Guide/blob/main/Pictures/EnableDeveloper.gif)
 * Go to **Settings** > **My Phone** (or **About Phone**).
 * Tap repeatedly (**7 times**) on **Build Number** until you see the message: **"You are now a developer!"**
 
