@@ -1,4 +1,4 @@
-# Tecno Spark 10 (Like KI5q) Ultimate Rooting Guide
+# Tecno Spark 10 (KI5q, Works with other models too) Ultimate Rooting Guide
 
 This is a step-by-step guide to achieve **Seamless Root** access on your Tecno Spark 10 (KI5q) using the **Fastboot method** and **Magisk**. And to get around some of the root security issues when dealing with bank apps and simmilar
 ---
