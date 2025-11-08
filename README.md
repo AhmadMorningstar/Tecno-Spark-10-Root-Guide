@@ -18,12 +18,10 @@ This is a step-by-step guide to achieve **Systemless Root** access on your Tecno
 Before connecting your phone to the PC, you need to enable the hidden developer settings.
 
 ### 1.1 Enable Developer Options
-[View GIF](https://github.com/AhmadMorningstar/Tecno-Spark-10-Root-Guide/blob/main/Pictures/EnableDeveloper.gif)
 * Go to **Settings** > **My Phone** (or **About Phone**).
 * Tap repeatedly (**7 times**) on **Build Number** until you see the message: **"You are now a developer!"**
 
 ### 1.2 Enable Required Options
-[View GIF](https://github.com/AhmadMorningstar/Tecno-Spark-10-Root-Guide/blob/main/Pictures/EnableOEMUnlock.gif)
 * Go to **Settings** > **System** > **Developer Options**.
 * Toggle on **"OEM unlocking."** (Note if you have not signed up to Tecno account you need to do that and then wait 2 weeks Aka **14 days** before being able to enable this OEM unlocking option so take ur time)
 * Toggle on **"USB debugging."** (Tap **Always Allow** checkbox and **Allow** button when connected to your pc after installing and running `adb devices`)
