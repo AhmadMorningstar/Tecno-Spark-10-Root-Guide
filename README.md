@@ -1,7 +1,6 @@
 # Tecno Spark 10 (KI5q) Ultimate Rooting Guide
 
-This is a step-by-step guide to achieve **Systemless Root** access on your Tecno Spark 10 (KI5q) using the **Fastboot method** and **Magisk**.
-
+This is a step-by-step guide to achieve **Systemless Root** access on your Tecno Spark 10 (KI5q) using the **Fastboot method** and **Magisk**. And to get around some of the root security issues when dealing with bank apps and simmilar
 ---
 
 ## ⚠️ Critical Warnings: READ FIRST!
@@ -127,3 +126,23 @@ We will use the Magisk app to modify your stock boot image, creating a "magisk-p
         ```
 
 Your phone should now boot up. Open the **Magisk app**, and it should confirm that your Tecno Spark 10 (KI5q) is **rooted!**
+
+## 6. Post-Root: Hiding Root (SafetyNet/Bank Apps)
+
+Modern banking and security apps use services like **Google's SafetyNet** (or Play Integrity API) to detect root access. To ensure these apps work, you must hide Magisk from them.
+
+### 6.1 Enable Zygisk:
+1.  Open the **Magisk App**.
+2.  Go to **Settings** (usually the gear icon in the top right).
+3.  Toggle on **Zygisk** (if it's not already enabled by default).
+4.  **Reboot** your phone after enabling this.
+
+### 6.2 Configure DenyList (Hide Root from Apps):
+1.  Go back to Magisk **Settings**.
+2.  Tap on **Configure DenyList**.
+3.  Tap the **three-dot menu** in the top corner and select **"Show system apps"** (this is usually necessary for bank apps and Google Play Services).
+4.  Scroll through the list and find all apps that you want to hide root from (e.g., your banking apps, payment apps, etc.).
+5.  **Crucial:** Tap to check the box next to **every component** of the sensitive app (do not just check the app name, expand the list and check all sub-processes/components if available).
+
+### 6.3 Check Status:
+1.  After setting the DenyList and rebooting, your banking apps should now launch and function normally.
