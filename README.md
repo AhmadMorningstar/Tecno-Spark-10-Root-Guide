@@ -35,7 +35,7 @@ Gather all the necessary tools and the device-specific files.
 | File/Tool | Purpose | Link |
 | :--- | :--- | :--- |
 | **ADB & Fastboot** | Command line tools for communication. | [15-second ADB Installer (Recommended)](https://androidmtk.com/download-15-seconds-adb-installer) |
-| **MTK VCOM Drivers** | Special drivers needed for your PC to recognize the Tecno phone during the process. | [**Download Drivers Here**](https://mega.nz/file/H1k0za6R#FjfhscOlnUQmuOj-9Ml09133-eAUzKNgF0bD5KaBKok) |
+| **MTK VCOM Drivers** | Special drivers needed for your PC to recognize the Tecno phone during the process. | [**Vcom MTK Drivers Signed**](https://mega.nz/file/H1k0za6R#FjfhscOlnUQmuOj-9Ml09133-eAUzKNgF0bD5KaBKok) |
 | **Stock Boot Image** | The original `boot.img` unique to your current firmware version. | Extract this from the official **KI5q** firmware file (e.g., from [NeedRom](https://www.needrom.com/download/tecno-spark-10-ki5q/)). |
 | **Magisk App** | The application used to patch the boot image and manage root access. | [Official Magisk GitHub Releases](https://github.com/topjohnwu/Magisk/releases) (**Get the latest stable version** only as of today it is Version 29.0) |
 
