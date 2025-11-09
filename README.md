@@ -78,7 +78,7 @@ Gather all the necessary tools and the device-specific files.
     * *(Note: If you wish to not continue with this, **now is your last chance**. press **Volume Down** to cancel and to not unlock the bootloader.
 
 4.  **Wait for Wipe:** The device will perform a full factory reset and reboot.
-    * **Crucial Setup Step:** Set up the phone again, but **skip all accounts and DO NOT set any screen lock** (PIN, pattern, or fingerprint, etc.). This prevents potential encryption issues later.
+    * **Crucial Setup Step:** Set up the phone again, but **skip all accounts and DO NOT set any screen lock** (PIN, pattern, or fingerprint, etc.). This prevents potential encryption issues later. **(After Bypass You can set Password, Gmail, Fingerprint etc)**
 
 ---
 
