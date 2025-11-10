@@ -16,7 +16,7 @@ This is a step-by-step guide to achieve **Seamless Root** access on your Tecno S
 ## Preparation: On Your Windows 10/11 PC
 You must download the drivers and install them from the provided link below in step 2.
 
-## Preparation: On Your Tecno Phone
+## 1. Preparation: On Your Tecno Phone
 
 Before connecting your phone to the PC, you need to enable the hidden developer settings.
 
