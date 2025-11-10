@@ -91,7 +91,7 @@ Gather all the necessary tools and the device-specific files.
 We will use the Magisk app to modify your stock boot image, creating a "magisk-patched" file. You have to extract the `boot.img` from the firmware file you downloaded, it must **Match your build number and version** and extract that firmware, it usually comes in `.zip` you will find `boot.img`.
 
 1.  **Transfer Files & Install Magisk:**
-    * Copy the **Stock Boot Image** (`boot.img`) and **install the Magisk App** (Official Github page) onto your phone's internal storage.
+    * Copy the **Stock Boot Image** (`boot.img`) and **install the Magisk App** [Official Github page](https://github.com/topjohnwu/Magisk/releases/latest) onto your phone's internal storage.
     * Use a file manager to install the **Magisk App** on your phone (Press **Allow File manager to install applications** when prompted).
 
 2.  **Patch the Image:**
