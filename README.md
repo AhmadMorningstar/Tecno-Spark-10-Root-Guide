@@ -101,11 +101,11 @@ We will use the Magisk app to modify your stock boot image, creating a "magisk-p
             ```bash
             adb push "C:\path-to-your-stock-boot.img" /sdcard/Download/boot.img
             ```
-            (Remember to replace the filename with the exact name Magisk generated.)
+            (Remember to replace the file path to your stock boot.img)
     * Open the **Magisk app**.
     * Tap the **Install** button next to Magisk.
     * Choose **"Select and Patch a File."**
-    * Navigate to and select the Stock **`boot.img`** file.
+    * Navigate to and select the Stock **`boot.img`** file, in our case from our phones Downloads folder.
     * Tap **"Let's Go."** Magisk will process the file and save the output file, typically named **`magisk_patched-xxxx.img`**, in your **Downloads** folder.
 
 4.  **Retrieve Patched File:**
