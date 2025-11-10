@@ -95,11 +95,17 @@ We will use the Magisk app to modify your stock boot image, creating a "magisk-p
     * Use a file manager to install the **Magisk App** on your phone (Press **Allow File manager to install applications** when prompted).
 
 2.  **Patch the Image:**
-3.  * Copy the Stockk (`boot.img`) to your phones internal storage.
+3.  * Copy the Stockk (`boot.img`) to your phones internal storage, (e.g., to `sdcard\Downloads`) using either:
+        * **File Explorer:** Simply drag and drop the file via the Windows File Explorer on Windows.
+        * **ADB Command:** (Recommended)
+            ```bash
+            adb push "C:\path-to-your-stock-boot.img" /sdcard/Download/boot.img
+            ```
+            (Remember to replace the filename with the exact name Magisk generated.)
     * Open the **Magisk app**.
     * Tap the **Install** button next to Magisk.
     * Choose **"Select and Patch a File."**
-    * Navigate to and select the original **`boot.img`** file.
+    * Navigate to and select the Stock **`boot.img`** file.
     * Tap **"Let's Go."** Magisk will process the file and save the output file, typically named **`magisk_patched-xxxx.img`**, in your **Downloads** folder.
 
 4.  **Retrieve Patched File:**
