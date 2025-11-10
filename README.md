@@ -133,7 +133,19 @@ Gather all the necessary tools and the device-specific files.
 We will use the Magisk app installed on your phone to create a "magisk-patched" boot image. Remember, you must have the correct `boot.img` extracted from the firmware that **Matches your build number and version**.
 
 1.  **Transfer Files & Install Magisk:**
-    * Copy the **Stock Boot Image** (`boot.img`) to your phone's internal storage.
+    * **Transfer Stock Boot Image to Phone:**
+    * Copy the **Stock Boot Image** (`boot.img`) from your PC to your phone's internal storage (e.g., to `/sdcard/Download`).
+
+    * **Option A: File Explorer (Recommended for Beginners)** 📂
+        * Connect your phone to the PC and ensure it's set to **File Transfer** mode.
+        * Open Windows File Explorer, navigate to your phone's internal storage, and drag the `boot.img` file into the `Download` folder.
+
+    * **Option B: ADB Command** (More reliable for long paths) 💻
+        * Open your CMD/Terminal on your PC and run:
+            ```bash
+            adb push "C:\path\to\your\boot.img" /sdcard/Download/boot.img
+            ```
+            *(Remember to replace `"C:\path\to\your\boot.img"` with the actual location of the file on your PC.)*
     * Install the **Magisk App** (`.apk` file) on your phone. (Allow file manager to install applications when prompted).
 
 2.  **Patch the Image:**
