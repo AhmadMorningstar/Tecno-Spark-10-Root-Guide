@@ -42,6 +42,7 @@ Gather all the necessary tools and the device-specific files.
 > **📝 Crucial Note on Links:** The links in this guide for the **Drivers** and **Stock Firmware** (NeedRom) do **NOT** belong to me. They are shared by other users and sources (like Hovacfirmware). You download these files at your own risk. Always scan files from the internet with a security program before opening them.
 
 ### 2.1 Install and Test ADB & Fastboot
+[Youtube Guide](https://youtu.be/kLEPkRtYEY8)
 1.  Run the **ADB Installer** on your PC. Press **Y** and **Enter** for all prompts, including the driver installation. In the Drivers step, it will pop up, just click **trust and install**.
 2.  Open your **Terminal (Windows 11)** or **Command Prompt (CMD)**.
 3.  Connect your phone to the PC via USB.
