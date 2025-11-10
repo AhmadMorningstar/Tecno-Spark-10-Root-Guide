@@ -40,7 +40,7 @@ Gather all the necessary tools and the device-specific files.
 | **ADB & Fastboot** | Command line tools for communication. | [15-second ADB Installer (Recommended)](https://androidmtk.com/download-15-seconds-adb-installer) |
 | **MTK VCOM Drivers** | Special drivers needed for your PC to recognize the Tecno phone during the process. | [**Vcom MTK Drivers Signed**](https://mega.nz/file/3h8BSY5J#0sfvyru6Hl6FsryUO2v9Yi1mmtsE4wrze68L4rjSGNk) |
 | **Stock Boot Image** | Search your device model find the stock firmware to your device and then extract it you will find `boot.img`. | Extract this from the official **KI5q** firmware file (e.g., from [NeedRom](https://www.needrom.com/download/tecno-spark-10-ki5q/)). |
-| **Magisk App** | The application used to patch the boot image and manage root access. | [Official Magisk GitHub](https://github.com/topjohnwu/Magisk/releases/latest) (**Get the latest stable version** only as of today it is Version 29.0) |
+| **Magisk App** | The application used to patch the boot image and manage root access. | [Official Magisk GitHub](https://github.com/topjohnwu/Magisk/releases/latest) (**Get the latest stable version** as of now it is Version 29.0) |
 
 > **📝 Crucial Note on Links:** The links in this guide for the **Drivers** and **Stock Firmware** (NeedRom) do **NOT** belong to me. They are shared by other users and sources (like Hovacfirmware). You download these files at your own risk. Always scan files from the internet with a security program before opening them.
 
