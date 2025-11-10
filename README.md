@@ -88,7 +88,7 @@ Gather all the necessary tools and the device-specific files.
 > **📝 Crucial Note on Links:** The links for the **Drivers** and **Stock Firmware** do **NOT** belong to me. They are shared by third-party sources. **Download these files at your own risk** and always scan them with a security program before use. 🛡️
 
 ### 2.1 Install and Test ADB & Fastboot
-
+**[How to install ADB & Fastboot on Windows 10/11 Youtube Guide](https://youtu.be/kLEPkRtYEY8)**
 1.  **(Windows Only):** Run the **ADB Installer**. Press **Y** and **Enter** for all prompts, including the driver installation. Click **trust and install** in the pop-up.
 2.  Open your **Terminal (Linux/Windows 11)** or **Command Prompt (CMD)**.
 3.  Connect your phone to the PC via USB. 📱➡️💻
